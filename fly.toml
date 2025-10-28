@@ -6,6 +6,9 @@
 app = "emailback"
 primary_region = "gru"
 
+[env]
+  PORT = "3000"
+
 [build]
   builder = "paketobuildpacks/builder:base"
 
